@@ -1,0 +1,2019 @@
+<!DOCTYPE html>
+<html class="no-js" lang="zxx">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>Appvilla - Creative Landing Page HTML Template.</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="assets/images/favicon.svg"
+    />
+
+    <link
+      rel="stylesheet"
+      href="assets/css/A.bootstrap.min.css+LineIcons.2.0.css+animate.css+tiny-slider.css+glightbox.min.css,Mcc.dnI-Dpjkx7.css.pagespeed.cf.af7laYTE8m.css"
+    />
+    <link
+      rel="stylesheet"
+      href="assets/css/A.main.css.pagespeed.cf.BPtSs-0yE6.css"
+    />
+    <script data-pagespeed-no-defer>
+      (function () {
+        function f(a, b, d) {
+          if (a.addEventListener) a.addEventListener(b, d, !1);
+          else if (a.attachEvent) a.attachEvent("on" + b, d);
+          else {
+            var c = a["on" + b];
+            a["on" + b] = function () {
+              d.call(this);
+              c && c.call(this);
+            };
+          }
+        }
+        window.pagespeed = window.pagespeed || {};
+        var g = window.pagespeed;
+        function k(a) {
+          this.g = [];
+          this.f = 0;
+          this.h = !1;
+          this.j = a;
+          this.i = null;
+          this.l = 0;
+          this.b = !1;
+          this.a = 0;
+        }
+        function l(a, b) {
+          var d = b.getAttribute("data-pagespeed-lazy-position");
+          if (d) return parseInt(d, 0);
+          var d = b.offsetTop,
+            c = b.offsetParent;
+          c && (d += l(a, c));
+          d = Math.max(d, 0);
+          b.setAttribute("data-pagespeed-lazy-position", d);
+          return d;
+        }
+        function m(a, b) {
+          var d, c, e;
+          if (!a.b && (0 == b.offsetHeight || 0 == b.offsetWidth)) return !1;
+          a: if (b.currentStyle) c = b.currentStyle.position;
+          else {
+            if (
+              document.defaultView &&
+              document.defaultView.getComputedStyle &&
+              (c = document.defaultView.getComputedStyle(b, null))
+            ) {
+              c = c.getPropertyValue("position");
+              break a;
+            }
+            c = b.style && b.style.position ? b.style.position : "";
+          }
+          if ("relative" == c) return !0;
+          e = 0;
+          "number" == typeof window.pageYOffset
+            ? (e = window.pageYOffset)
+            : document.body && document.body.scrollTop
+            ? (e = document.body.scrollTop)
+            : document.documentElement &&
+              document.documentElement.scrollTop &&
+              (e = document.documentElement.scrollTop);
+          d =
+            window.innerHeight ||
+            document.documentElement.clientHeight ||
+            document.body.clientHeight;
+          c = e;
+          e += d;
+          var h = b.getBoundingClientRect();
+          h
+            ? ((e = h.top - d), (c = h.bottom))
+            : ((h = l(a, b)),
+              (d = h + b.offsetHeight),
+              (e = h - e),
+              (c = d - c));
+          return e <= a.f && 0 <= c + a.f;
+        }
+        k.prototype.m = function (a) {
+          p(a);
+          var b = this;
+          window.setTimeout(function () {
+            var d = a.getAttribute("data-pagespeed-lazy-src");
+            if (d)
+              if ((b.h || m(b, a)) && -1 != a.src.indexOf(b.j)) {
+                var c = a.parentNode,
+                  e = a.nextSibling;
+                c && c.removeChild(a);
+                a.c && (a.getAttribute = a.c);
+                a.removeAttribute("onload");
+                a.tagName &&
+                  "IMG" == a.tagName &&
+                  g.CriticalImages &&
+                  f(a, "load", function () {
+                    g.CriticalImages.checkImageForCriticality(this);
+                    b.b &&
+                      (b.a--, b.a || g.CriticalImages.checkCriticalImages());
+                  });
+                a.removeAttribute("data-pagespeed-lazy-src");
+                a.removeAttribute("data-pagespeed-lazy-replaced-functions");
+                c && c.insertBefore(a, e);
+                if ((c = a.getAttribute("data-pagespeed-lazy-srcset")))
+                  (a.srcset = c),
+                    a.removeAttribute("data-pagespeed-lazy-srcset");
+                a.src = d;
+              } else b.g.push(a);
+          }, 0);
+        };
+        k.prototype.loadIfVisibleAndMaybeBeacon = k.prototype.m;
+        k.prototype.s = function () {
+          this.h = !0;
+          q(this);
+        };
+        k.prototype.loadAllImages = k.prototype.s;
+        function q(a) {
+          var b = a.g,
+            d = b.length;
+          a.g = [];
+          for (var c = 0; c < d; ++c) a.m(b[c]);
+        }
+        function t(a, b) {
+          return a.a ? null != a.a(b) : null != a.getAttribute(b);
+        }
+        k.prototype.u = function () {
+          for (
+            var a = document.getElementsByTagName("img"), b = 0, d;
+            (d = a[b]);
+            b++
+          )
+            t(d, "data-pagespeed-lazy-src") && p(d);
+        };
+        k.prototype.overrideAttributeFunctions = k.prototype.u;
+        function p(a) {
+          t(a, "data-pagespeed-lazy-replaced-functions") ||
+            ((a.c = a.getAttribute),
+            (a.getAttribute = function (a) {
+              "src" == a.toLowerCase() &&
+                t(this, "data-pagespeed-lazy-src") &&
+                (a = "data-pagespeed-lazy-src");
+              return this.c(a);
+            }),
+            a.setAttribute("data-pagespeed-lazy-replaced-functions", "1"));
+        }
+        g.o = function (a, b) {
+          function d() {
+            if (!((c.b && a) || c.i)) {
+              var b = 200;
+              200 < new Date().getTime() - c.l && (b = 0);
+              c.i = window.setTimeout(function () {
+                c.l = new Date().getTime();
+                q(c);
+                c.i = null;
+              }, b);
+            }
+          }
+          var c = new k(b);
+          g.lazyLoadImages = c;
+          f(window, "load", function () {
+            c.b = !0;
+            c.h = a;
+            c.f = 200;
+            if (g.CriticalImages) {
+              for (
+                var b = 0, d = document.getElementsByTagName("img"), r = 0, n;
+                (n = d[r]);
+                r++
+              )
+                -1 != n.src.indexOf(c.j) &&
+                  t(n, "data-pagespeed-lazy-src") &&
+                  b++;
+              c.a = b;
+              c.a || g.CriticalImages.checkCriticalImages();
+            }
+            q(c);
+          });
+          b.indexOf("data") && (new Image().src = b);
+          f(window, "scroll", d);
+          f(window, "resize", d);
+        };
+        g.lazyLoadInit = g.o;
+      })();
+
+      pagespeed.lazyLoadInit(true, "/pagespeed_static/1.JiBnMqyl6S.gif");
+    </script>
+  </head>
+  <body>
+    <noscript
+      ><meta
+        http-equiv="refresh"
+        content="0;url='https://preview.uideck.com/items/appvilla/?PageSpeed=noscript'"
+      /><style>
+        <!--table,div,span,font,p{display:none} -->
+      </style>
+      <div style="display: block">
+        Please click
+        <a href="https://preview.uideck.com/items/appvilla/?PageSpeed=noscript"
+          >here</a
+        >
+        if you are not redirected within a few seconds.
+      </div></noscript
+    >
+    <!--[if lte IE 9]>
+      <p class="browserupgrade">
+        You are using an <strong>outdated</strong> browser. Please
+        <a href="https://browsehappy.com/">upgrade your browser</a> to improve
+        your experience and security.
+      </p>
+    <![endif]-->
+
+    <div class="preloader">
+      <div class="preloader-inner">
+        <div class="preloader-icon">
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </div>
+
+    <header class="header navbar-area">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-12">
+            <div class="nav-inner">
+              <nav class="navbar navbar-expand-lg">
+                <a class="navbar-brand" href="index.html">
+                  <script data-pagespeed-no-defer>
+                    (function () {
+                      for (
+                        var g =
+                            "function" == typeof Object.defineProperties
+                              ? Object.defineProperty
+                              : function (b, c, a) {
+                                  if (a.get || a.set)
+                                    throw new TypeError(
+                                      "ES3 does not support getters and setters."
+                                    );
+                                  b != Array.prototype &&
+                                    b != Object.prototype &&
+                                    (b[c] = a.value);
+                                },
+                          h =
+                            "undefined" != typeof window && window === this
+                              ? this
+                              : "undefined" != typeof global && null != global
+                              ? global
+                              : this,
+                          k = ["String", "prototype", "repeat"],
+                          l = 0;
+                        l < k.length - 1;
+                        l++
+                      ) {
+                        var m = k[l];
+                        m in h || (h[m] = {});
+                        h = h[m];
+                      }
+                      var n = k[k.length - 1],
+                        p = h[n],
+                        q = p
+                          ? p
+                          : function (b) {
+                              var c;
+                              if (null == this)
+                                throw new TypeError(
+                                  "The 'this' value for String.prototype.repeat must not be null or undefined"
+                                );
+                              c = this + "";
+                              if (0 > b || 1342177279 < b)
+                                throw new RangeError("Invalid count value");
+                              b |= 0;
+                              for (var a = ""; b; )
+                                if ((b & 1 && (a += c), (b >>>= 1))) c += c;
+                              return a;
+                            };
+                      q != p &&
+                        null != q &&
+                        g(h, n, { configurable: !0, writable: !0, value: q });
+                      var t = this;
+                      function u(b, c) {
+                        var a = b.split("."),
+                          d = t;
+                        a[0] in d ||
+                          !d.execScript ||
+                          d.execScript("var " + a[0]);
+                        for (var e; a.length && (e = a.shift()); )
+                          a.length || void 0 === c
+                            ? d[e]
+                              ? (d = d[e])
+                              : (d = d[e] = {})
+                            : (d[e] = c);
+                      }
+                      function v(b) {
+                        var c = b.length;
+                        if (0 < c) {
+                          for (var a = Array(c), d = 0; d < c; d++) a[d] = b[d];
+                          return a;
+                        }
+                        return [];
+                      }
+                      function w(b) {
+                        var c = window;
+                        if (c.addEventListener)
+                          c.addEventListener("load", b, !1);
+                        else if (c.attachEvent) c.attachEvent("onload", b);
+                        else {
+                          var a = c.onload;
+                          c.onload = function () {
+                            b.call(this);
+                            a && a.call(this);
+                          };
+                        }
+                      }
+                      var x;
+                      function y(b, c, a, d, e) {
+                        this.h = b;
+                        this.j = c;
+                        this.l = a;
+                        this.f = e;
+                        this.g = {
+                          height:
+                            window.innerHeight ||
+                            document.documentElement.clientHeight ||
+                            document.body.clientHeight,
+                          width:
+                            window.innerWidth ||
+                            document.documentElement.clientWidth ||
+                            document.body.clientWidth,
+                        };
+                        this.i = d;
+                        this.b = {};
+                        this.a = [];
+                        this.c = {};
+                      }
+                      function z(b, c) {
+                        var a,
+                          d,
+                          e = c.getAttribute("data-pagespeed-url-hash");
+                        if ((a = e && !(e in b.c)))
+                          if (0 >= c.offsetWidth && 0 >= c.offsetHeight) a = !1;
+                          else {
+                            d = c.getBoundingClientRect();
+                            var f = document.body;
+                            a =
+                              d.top +
+                              ("pageYOffset" in window
+                                ? window.pageYOffset
+                                : (
+                                    document.documentElement ||
+                                    f.parentNode ||
+                                    f
+                                  ).scrollTop);
+                            d =
+                              d.left +
+                              ("pageXOffset" in window
+                                ? window.pageXOffset
+                                : (
+                                    document.documentElement ||
+                                    f.parentNode ||
+                                    f
+                                  ).scrollLeft);
+                            f = a.toString() + "," + d;
+                            b.b.hasOwnProperty(f)
+                              ? (a = !1)
+                              : ((b.b[f] = !0),
+                                (a = a <= b.g.height && d <= b.g.width));
+                          }
+                        a && (b.a.push(e), (b.c[e] = !0));
+                      }
+                      y.prototype.checkImageForCriticality = function (b) {
+                        b.getBoundingClientRect && z(this, b);
+                      };
+                      u(
+                        "pagespeed.CriticalImages.checkImageForCriticality",
+                        function (b) {
+                          x.checkImageForCriticality(b);
+                        }
+                      );
+                      u(
+                        "pagespeed.CriticalImages.checkCriticalImages",
+                        function () {
+                          A(x);
+                        }
+                      );
+                      function A(b) {
+                        b.b = {};
+                        for (
+                          var c = ["IMG", "INPUT"], a = [], d = 0;
+                          d < c.length;
+                          ++d
+                        )
+                          a = a.concat(v(document.getElementsByTagName(c[d])));
+                        if (a.length && a[0].getBoundingClientRect) {
+                          for (d = 0; (c = a[d]); ++d) z(b, c);
+                          a = "oh=" + b.l;
+                          b.f && (a += "&n=" + b.f);
+                          if ((c = !!b.a.length))
+                            for (
+                              a += "&ci=" + encodeURIComponent(b.a[0]), d = 1;
+                              d < b.a.length;
+                              ++d
+                            ) {
+                              var e = "," + encodeURIComponent(b.a[d]);
+                              131072 >= a.length + e.length && (a += e);
+                            }
+                          b.i &&
+                            ((e =
+                              "&rd=" + encodeURIComponent(JSON.stringify(B()))),
+                            131072 >= a.length + e.length && (a += e),
+                            (c = !0));
+                          C = a;
+                          if (c) {
+                            d = b.h;
+                            b = b.j;
+                            var f;
+                            if (window.XMLHttpRequest) f = new XMLHttpRequest();
+                            else if (window.ActiveXObject)
+                              try {
+                                f = new ActiveXObject("Msxml2.XMLHTTP");
+                              } catch (r) {
+                                try {
+                                  f = new ActiveXObject("Microsoft.XMLHTTP");
+                                } catch (D) {}
+                              }
+                            f &&
+                              (f.open(
+                                "POST",
+                                d +
+                                  (-1 == d.indexOf("?") ? "?" : "&") +
+                                  "url=" +
+                                  encodeURIComponent(b)
+                              ),
+                              f.setRequestHeader(
+                                "Content-Type",
+                                "application/x-www-form-urlencoded"
+                              ),
+                              f.send(a));
+                          }
+                        }
+                      }
+                      function B() {
+                        var b = {},
+                          c;
+                        c = document.getElementsByTagName("IMG");
+                        if (!c.length) return {};
+                        var a = c[0];
+                        if (!("naturalWidth" in a && "naturalHeight" in a))
+                          return {};
+                        for (var d = 0; (a = c[d]); ++d) {
+                          var e = a.getAttribute("data-pagespeed-url-hash");
+                          e &&
+                            ((!(e in b) &&
+                              0 < a.width &&
+                              0 < a.height &&
+                              0 < a.naturalWidth &&
+                              0 < a.naturalHeight) ||
+                              (e in b &&
+                                a.width >= b[e].o &&
+                                a.height >= b[e].m)) &&
+                            (b[e] = {
+                              rw: a.width,
+                              rh: a.height,
+                              ow: a.naturalWidth,
+                              oh: a.naturalHeight,
+                            });
+                        }
+                        return b;
+                      }
+                      var C = "";
+                      u("pagespeed.CriticalImages.getBeaconData", function () {
+                        return C;
+                      });
+                      u(
+                        "pagespeed.CriticalImages.Run",
+                        function (b, c, a, d, e, f) {
+                          var r = new y(b, c, a, e, f);
+                          x = r;
+                          d &&
+                            w(function () {
+                              window.setTimeout(function () {
+                                A(r);
+                              }, 0);
+                            });
+                        }
+                      );
+                    })();
+                    pagespeed.CriticalImages.Run(
+                      "/ngx_pagespeed_beacon",
+                      "https://preview.uideck.com/items/appvilla/",
+                      "RCCUltOb55",
+                      false,
+                      false,
+                      "kmuFARzYbxw"
+                    );
+                  </script>
+                  <img
+                    src="assets/images/logo/white-logo.svg"
+                    alt="Logo"
+                    data-pagespeed-url-hash="1258407309"
+                    onload="pagespeed.CriticalImages.checkImageForCriticality(this);"
+                  />
+                </a>
+                <button
+                  class="navbar-toggler mobile-menu-btn"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#navbarSupportedContent"
+                  aria-controls="navbarSupportedContent"
+                  aria-expanded="false"
+                  aria-label="Toggle navigation"
+                >
+                  <span class="toggler-icon"></span>
+                  <span class="toggler-icon"></span>
+                  <span class="toggler-icon"></span>
+                </button>
+                <div
+                  class="collapse navbar-collapse sub-menu-bar"
+                  id="navbarSupportedContent"
+                >
+                  <ul id="nav" class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                      <a
+                        href="#home"
+                        class="page-scroll active"
+                        aria-label="Toggle navigation"
+                        >Home</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a
+                        href="#features"
+                        class="page-scroll"
+                        aria-label="Toggle navigation"
+                        >Features</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a
+                        href="#overview"
+                        class="page-scroll"
+                        aria-label="Toggle navigation"
+                        >Overview</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a
+                        href="#pricing"
+                        class="page-scroll"
+                        aria-label="Toggle navigation"
+                        >Pricing</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a
+                        href="#team"
+                        class="page-scroll"
+                        aria-label="Toggle navigation"
+                        >Team</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a
+                        class="page-scroll dd-menu collapsed"
+                        href="#blog"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#submenu-1-4"
+                        aria-controls="navbarSupportedContent"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation"
+                        >Blog</a
+                      >
+                      <ul class="sub-menu collapse" id="submenu-1-4">
+                        <li class="nav-item">
+                          <a href="blog-grid-sidebar.html">Blog Grid Sidebar</a>
+                        </li>
+                        <li class="nav-item">
+                          <a href="blog-single.html">Blog Single</a>
+                        </li>
+                        <li class="nav-item">
+                          <a href="blog-single-sidebar.html"
+                            >Blog Single Sibebar</a
+                          >
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="nav-item">
+                      <a href="contact.html" aria-label="Toggle navigation"
+                        >Contact</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+                <div class="button add-list-button">
+                  <a
+                    href="https://uideck.com/templates/appvilla/"
+                    target="_blank"
+                    rel="noopener"
+                    class="btn"
+                    >Get it now</a
+                  >
+                </div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section id="home" class="hero-area">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-5 col-md-12 col-12">
+            <div class="hero-content">
+              <h1 class="wow fadeInLeft" data-wow-delay=".4s">
+                A powerful app for your business.
+              </h1>
+              <p class="wow fadeInLeft" data-wow-delay=".6s">
+                From open source to pro services, Piqes helps you to build,
+                deploy, test, and monitor apps.
+              </p>
+              <div class="button wow fadeInLeft" data-wow-delay=".8s">
+                <a href="javascript:void(0)" class="btn"
+                  ><i class="lni lni-apple"></i> App Store</a
+                >
+                <a href="javascript:void(0)" class="btn btn-alt"
+                  ><i class="lni lni-play-store"></i> Google Play</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-7 col-md-12 col-12">
+            <div class="hero-image wow fadeInRight" data-wow-delay=".4s">
+              <script data-pagespeed-no-defer>
+                window["pagespeed"] = window["pagespeed"] || {};
+                var pagespeed = window["pagespeed"];
+                pagespeed.switchToHighResAndMaybeBeacon = function (elem) {
+                  setTimeout(function () {
+                    elem.onload = null;
+                    var srcset = elem.getAttribute(
+                      "data-pagespeed-high-res-srcset"
+                    );
+                    if (srcset) {
+                      elem.srcset = srcset;
+                    }
+                    elem.src = elem.getAttribute("data-pagespeed-high-res-src");
+                    if (pagespeed.CriticalImages) {
+                      elem.onload =
+                        pagespeed.CriticalImages.checkImageForCriticality(elem);
+                    }
+                  }, 0);
+                };
+              </script>
+              <img
+                data-pagespeed-high-res-src="assets/images/hero/xphone.png.pagespeed.ic.XeQOrw0ZaA.webp"
+                alt="#"
+                data-pagespeed-url-hash="3493149708"
+                src="data:image/webp;base64,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"
+                onload="pagespeed.switchToHighResAndMaybeBeacon(this);"
+                onerror="this.onerror=null;pagespeed.switchToHighResAndMaybeBeacon(this);"
+                id="pagespeed_img_kpOU3PxbOe1"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="features" class="features section">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="section-title">
+              <h3 class="wow zoomIn" data-wow-delay=".2s">Features</h3>
+              <h2 class="wow fadeInUp" data-wow-delay=".4s">
+                Your Experience Gets Better And Better Over Time.
+              </h2>
+              <p class="wow fadeInUp" data-wow-delay=".6s">
+                There are many variations of passages of Lorem Ipsum available,
+                but the majority have suffered alteration in some form.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 col-md-6 col-12">
+            <div class="single-feature wow fadeInUp" data-wow-delay=".2s">
+              <i class="lni lni-cloud-upload"></i>
+              <h3>Push to Deploy</h3>
+              <p>
+                It is a long established fact that a reader will be distracted
+                by the readable content of a page at its layout.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-12">
+            <div class="single-feature wow fadeInUp" data-wow-delay=".4s">
+              <i class="lni lni-lock"></i>
+              <h3>SSL Certificates</h3>
+              <p>
+                It is a long established fact that a reader will be distracted
+                by the readable content of a page at its layout.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-12">
+            <div class="single-feature wow fadeInUp" data-wow-delay=".6s">
+              <i class="lni lni-reload"></i>
+              <h3>Simple Queues</h3>
+              <p>
+                It is a long established fact that a reader will be distracted
+                by the readable content of a page at its layout.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-12">
+            <div class="single-feature wow fadeInUp" data-wow-delay=".2s">
+              <i class="lni lni-shield"></i>
+              <h3>Advanced Security</h3>
+              <p>
+                It is a long established fact that a reader will be distracted
+                by the readable content of a page at its layout.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-12">
+            <div class="single-feature wow fadeInUp" data-wow-delay=".4s">
+              <i class="lni lni-cog"></i>
+              <h3>Powerful API</h3>
+              <p>
+                It is a long established fact that a reader will be distracted
+                by the readable content of a page at its layout.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-12">
+            <div class="single-feature wow fadeInUp" data-wow-delay=".6s">
+              <i class="lni lni-layers"></i>
+              <h3>Database Backups</h3>
+              <p>
+                It is a long established fact that a reader will be distracted
+                by the readable content of a page at its layout.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="overview" class="app-info section">
+      <div class="container">
+        <div class="info-one">
+          <div class="row align-items-center">
+            <div class="col-lg-6 col-md-12 col-12">
+              <div class="info-text wow fadeInLeft" data-wow-delay=".3s">
+                <div class="main-icon">
+                  <i class="lni lni-inbox"></i>
+                </div>
+                <h2>1,25,000 Customers Using The Application!</h2>
+                <p>
+                  Collaborate over projects with your team and clients optimised
+                  for mobile and tablet don't let slow page speeds drive our
+                  innovative platform empowers anyone to convert clicks ou'll
+                  publish your first landing page in minutes.
+                </p>
+                <div class="button">
+                  <a href="javascript:void(0)" class="btn">Get Started</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-12 col-12">
+              <div class="info-image wow fadeInRight" data-wow-delay=".5s">
+                <img
+                  class="ss1"
+                  data-pagespeed-lazy-src="assets/images/app-ss/xapp-ss1.png.pagespeed.ic.pWs8jkB5Zw.webp"
+                  alt="#"
+                  data-pagespeed-url-hash="2327635917"
+                  src="/pagespeed_static/1.JiBnMqyl6S.gif"
+                  onload="pagespeed.lazyLoadImages.loadIfVisibleAndMaybeBeacon(this);"
+                  onerror="this.onerror=null;pagespeed.lazyLoadImages.loadIfVisibleAndMaybeBeacon(this);"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="info-one style2">
+          <div class="row align-items-center">
+            <div class="col-lg-6 col-md-12 col-12">
+              <div class="info-image wow fadeInLeft" data-wow-delay=".3s">
+                <img
+                  class="ss1"
+                  data-pagespeed-lazy-src="assets/images/app-ss/xapp-ss2.png.pagespeed.ic.fTfkjvu-lk.webp"
+                  alt="#"
+                  data-pagespeed-url-hash="2622135838"
+                  src="/pagespeed_static/1.JiBnMqyl6S.gif"
+                  onload="pagespeed.lazyLoadImages.loadIfVisibleAndMaybeBeacon(this);"
+                  onerror="this.onerror=null;pagespeed.lazyLoadImages.loadIfVisibleAndMaybeBeacon(this);"
+                />
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-12 col-12">
+              <div class="info-text wow fadeInRight" data-wow-delay=".5s">
+                <div class="main-icon">
+                  <i class="lni lni-layout"></i>
+                </div>
+                <h2>Seamless Loyalty</h2>
+                <p>
+                  Collaborate over projects with your team and clients optimised
+                  for mobile and tablet don't let slow page speeds drive our
+                  innovative platform empowers anyone to convert clicks ou'll
+                  publish your first landing page in minutes.
+                </p>
+                <div class="button">
+                  <a href="javascript:void(0)" class="btn">Get Started</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="our-achievement section">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-10 offset-lg-1 col-md-12 col-12">
+            <div class="title">
+              <h2>Trusted by developers from over 80 planets</h2>
+              <p>
+                There are many variations of passages of Lorem Ipsum available,
+                but the majority.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-8 offset-lg-2 col-md-12 col-12">
+            <div class="row">
+              <div class="col-lg-4 col-md-4 col-12">
+                <div
+                  class="single-achievement wow fadeInUp"
+                  data-wow-delay=".2s"
+                >
+                  <h3 class="counter">
+                    <span id="secondo1" class="countup" cup-end="100">100</span
+                    >%
+                  </h3>
+                  <p>satisfaction</p>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-4 col-12">
+                <div
+                  class="single-achievement wow fadeInUp"
+                  data-wow-delay=".4s"
+                >
+                  <h3 class="counter">
+                    <span id="secondo2" class="countup" cup-end="120">120</span
+                    >K
+                  </h3>
+                  <p>Happy Users</p>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-4 col-12">
+                <div
+                  class="single-achievement wow fadeInUp"
+                  data-wow-delay=".6s"
+                >
+                  <h3 class="counter">
+                    <span id="secondo3" class="countup" cup-end="125">125</span
+                    >k+
+                  </h3>
+                  <p>Downloads</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="pricing" class="pricing-table section">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="section-title">
+              <h3 class="wow zoomIn" data-wow-delay=".2s">pricing</h3>
+              <h2 class="wow fadeInUp" data-wow-delay=".4s">Pricing Plan</h2>
+              <p class="wow fadeInUp" data-wow-delay=".6s">
+                There are many variations of passages of Lorem Ipsum available,
+                but the majority have suffered alteration in some form.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-3 col-md-6 col-12">
+            <div class="single-table wow fadeInUp" data-wow-delay=".2s">
+              <div class="table-head">
+                <h4 class="title">Hobby</h4>
+                <p>All the basics for starting a new business</p>
+                <div class="price">
+                  <h2 class="amount">$12<span class="duration">/mo</span></h2>
+                </div>
+                <div class="button">
+                  <a href="javascript:void(0)" class="btn">Buy Hobby</a>
+                </div>
+              </div>
+
+              <div class="table-content">
+                <h4 class="middle-title">What's Included</h4>
+
+                <ul class="table-list">
+                  <li>
+                    <i class="lni lni-checkmark-circle"></i> Cras justo odio.
+                  </li>
+                  <li>
+                    <i class="lni lni-checkmark-circle"></i> Dapibus ac
+                    facilisis in.
+                  </li>
+                  <li>
+                    <i class="lni lni-checkmark-circle"></i> Morbi leo risus.
+                  </li>
+                  <li>
+                    <i class="lni lni-checkmark-circle"></i> Potenti felis, in
+                    cras ligula.
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-12">
+            <div class="single-table wow fadeInUp" data-wow-delay=".4s">
+              <div class="table-head">
+                <h4 class="title">Freelancer</h4>
+                <p>All the basics for starting a new business</p>
+                <div class="price">
+                  <h2 class="amount">$24<span class="duration">/mo</span></h2>
+                </div>
+                <div class="button">
+                  <a href="javascript:void(0)" class="btn">Buy Freelancer</a>
+                </div>
+              </div>
+
+              <div class="table-content">
+                <h4 class="middle-title">What's Included</h4>
+
+                <ul class="table-list">
+                  <li>
+                    <i class="lni lni-checkmark-circle"></i> Cras justo odio.
+                  </li>
+                  <li>
+                    <i class="lni lni-checkmark-circle"></i> Dapibus ac
+                    facilisis in.
+                  </li>
+                  <li>
+                    <i class="lni lni-checkmark-circle"></i> Morbi leo risus.
+                  </li>
+                  <li>
+                    <i class="lni lni-checkmark-circle"></i> Potenti felis, in
+                    cras ligula.
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-12">
+            <div class="single-table wow fadeInUp" data-wow-delay=".6s">
+              <div class="table-head">
+                <h4 class="title">Startup</h4>
+                <p>All the basics for starting a new business</p>
+                <div class="price">
+                  <h2 class="amount">$32<span class="duration">/mo</span></h2>
+                </div>
+                <div class="button">
+                  <a href="javascript:void(0)" class="btn">Buy Startup</a>
+                </div>
+              </div>
+
+              <div class="table-content">
+                <h4 class="middle-title">What's Included</h4>
+
+                <ul class="table-list">
+                  <li>
+                    <i class="lni lni-checkmark-circle"></i> Cras justo odio.
+                  </li>
+                  <li>
+                    <i class="lni lni-checkmark-circle"></i> Dapibus ac
+                    facilisis in.
+                  </li>
+                  <li>
+                    <i class="lni lni-checkmark-circle"></i> Morbi leo risus.
+                  </li>
+                  <li>
+                    <i class="lni lni-checkmark-circle"></i> Potenti felis, in
+                    cras ligula.
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-12">
+            <div class="single-table wow fadeInUp" data-wow-delay=".8s">
+              <div class="table-head">
+                <h4 class="title">Enterprise</h4>
+                <p>All the basics for starting a new business</p>
+                <div class="price">
+                  <h2 class="amount">$48<span class="duration">/mo</span></h2>
+                </div>
+                <div class="button">
+                  <a href="javascript:void(0)" class="btn">Buy Enterprise</a>
+                </div>
+              </div>
+
+              <div class="table-content">
+                <h4 class="middle-title">What's Included</h4>
+
+                <ul class="table-list">
+                  <li>
+                    <i class="lni lni-checkmark-circle"></i> Cras justo odio.
+                  </li>
+                  <li>
+                    <i class="lni lni-checkmark-circle"></i> Dapibus ac
+                    facilisis in.
+                  </li>
+                  <li>
+                    <i class="lni lni-checkmark-circle"></i> Morbi leo risus.
+                  </li>
+                  <li>
+                    <i class="lni lni-checkmark-circle"></i> Potenti felis, in
+                    cras ligula.
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="team" class="team section">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="section-title">
+              <h3 class="wow zoomIn" data-wow-delay=".2s">Team</h3>
+              <h2 class="wow fadeInUp" data-wow-delay=".4s">Meat our team</h2>
+              <p class="wow fadeInUp" data-wow-delay=".6s">
+                There are many variations of passages of Lorem Ipsum available,
+                but the majority have suffered alteration in some form.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 col-md-6 col-12">
+            <div class="single-team wow fadeInUp" data-wow-delay=".2s">
+              <div class="image">
+                <img
+                  data-pagespeed-lazy-src="assets/images/team/xteam1.jpg.pagespeed.ic.48i9gBWoeS.webp"
+                  alt="#"
+                  data-pagespeed-url-hash="4182764257"
+                  src="/pagespeed_static/1.JiBnMqyl6S.gif"
+                  onload="pagespeed.lazyLoadImages.loadIfVisibleAndMaybeBeacon(this);"
+                  onerror="this.onerror=null;pagespeed.lazyLoadImages.loadIfVisibleAndMaybeBeacon(this);"
+                />
+              </div>
+              <div class="content">
+                <div class="row align-items-center">
+                  <div class="col-lg-7 col-12">
+                    <div class="text">
+                      <h3><a href="javascript:void(0)">Leonard Krasner</a></h3>
+                      <h5>Senior Designer</h5>
+                    </div>
+                  </div>
+                  <div class="col-lg-5 col-12">
+                    <ul class="social">
+                      <li>
+                        <a href="javascript:void(0)"
+                          ><i class="lni lni-twitter-original"></i
+                        ></a>
+                      </li>
+                      <li>
+                        <a href="javascript:void(0)"
+                          ><i class="lni lni-linkedin-original"></i
+                        ></a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-12">
+            <div class="single-team wow fadeInUp" data-wow-delay=".4s">
+              <div class="image">
+                <img
+                  data-pagespeed-lazy-src="assets/images/team/xteam2.jpg.pagespeed.ic.rBaVvtvbmv.webp"
+                  alt="#"
+                  data-pagespeed-url-hash="182296882"
+                  src="/pagespeed_static/1.JiBnMqyl6S.gif"
+                  onload="pagespeed.lazyLoadImages.loadIfVisibleAndMaybeBeacon(this);"
+                  onerror="this.onerror=null;pagespeed.lazyLoadImages.loadIfVisibleAndMaybeBeacon(this);"
+                />
+              </div>
+              <div class="content">
+                <div class="row align-items-center">
+                  <div class="col-lg-7 col-12">
+                    <div class="text">
+                      <h3><a href="javascript:void(0)">Leonard Krasner</a></h3>
+                      <h5>Senior Designer</h5>
+                    </div>
+                  </div>
+                  <div class="col-lg-5 col-12">
+                    <ul class="social">
+                      <li>
+                        <a href="javascript:void(0)"
+                          ><i class="lni lni-twitter-original"></i
+                        ></a>
+                      </li>
+                      <li>
+                        <a href="javascript:void(0)"
+                          ><i class="lni lni-linkedin-original"></i
+                        ></a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-12">
+            <div class="single-team wow fadeInUp" data-wow-delay=".6s">
+              <div class="image">
+                <img
+                  data-pagespeed-lazy-src="assets/images/team/xteam3.jpg.pagespeed.ic.RCAiBveTku.webp"
+                  alt="#"
+                  data-pagespeed-url-hash="476796803"
+                  src="/pagespeed_static/1.JiBnMqyl6S.gif"
+                  onload="pagespeed.lazyLoadImages.loadIfVisibleAndMaybeBeacon(this);"
+                  onerror="this.onerror=null;pagespeed.lazyLoadImages.loadIfVisibleAndMaybeBeacon(this);"
+                />
+              </div>
+              <div class="content">
+                <div class="row align-items-center">
+                  <div class="col-lg-7 col-12">
+                    <div class="text">
+                      <h3><a href="javascript:void(0)">Leonard Krasner</a></h3>
+                      <h5>Senior Designer</h5>
+                    </div>
+                  </div>
+                  <div class="col-lg-5 col-12">
+                    <ul class="social">
+                      <li>
+                        <a href="javascript:void(0)"
+                          ><i class="lni lni-twitter-original"></i
+                        ></a>
+                      </li>
+                      <li>
+                        <a href="javascript:void(0)"
+                          ><i class="lni lni-linkedin-original"></i
+                        ></a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="testimonials section">
+      <img
+        class="testi-patern1"
+        data-pagespeed-lazy-src="assets/images/testimonial/testi-patern.svg"
+        alt="#"
+        data-pagespeed-url-hash="1693440030"
+        src="/pagespeed_static/1.JiBnMqyl6S.gif"
+        onload="pagespeed.lazyLoadImages.loadIfVisibleAndMaybeBeacon(this);"
+        onerror="this.onerror=null;pagespeed.lazyLoadImages.loadIfVisibleAndMaybeBeacon(this);"
+      />
+      <img
+        class="testi-patern2"
+        data-pagespeed-lazy-src="assets/images/testimonial/testi-patern.svg"
+        alt="#"
+        data-pagespeed-url-hash="1693440030"
+        src="/pagespeed_static/1.JiBnMqyl6S.gif"
+        onload="pagespeed.lazyLoadImages.loadIfVisibleAndMaybeBeacon(this);"
+        onerror="this.onerror=null;pagespeed.lazyLoadImages.loadIfVisibleAndMaybeBeacon(this);"
+      />
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 offset-lg-2 col-md-12 col-12">
+            <div class="testimonial-slider">
+              <div class="single-testimonial">
+                <div class="text">
+                  <div class="brand-icon">
+                    <img
+                      src="assets/images/testimonial/brand2.svg"
+                      alt="#"
+                      data-pagespeed-url-hash="3999067313"
+                      onload="pagespeed.CriticalImages.checkImageForCriticality(this);"
+                    />
+                  </div>
+                  <p>
+                    "It is a long established fact that a reader will be
+                    distracted by the readable content of a page when looking at
+                    its layout. The point of using Lorem Ipsum is that it has"
+                  </p>
+                </div>
+                <div class="author">
+                  <img
+                    src="assets/images/testimonial/xtesti1.jpg.pagespeed.ic.HvtaS2cTMW.webp"
+                    alt="#"
+                    data-pagespeed-url-hash="116410593"
+                    onload="pagespeed.CriticalImages.checkImageForCriticality(this);"
+                  />
+                  <h4 class="name">
+                    Musharof Chowdhury
+                    <span class="deg">CEO - Ayro UI</span>
+                  </h4>
+                </div>
+              </div>
+
+              <div class="single-testimonial">
+                <div class="text">
+                  <div class="brand-icon">
+                    <img
+                      src="assets/images/testimonial/brand1.svg"
+                      alt="#"
+                      data-pagespeed-url-hash="3704567392"
+                      onload="pagespeed.CriticalImages.checkImageForCriticality(this);"
+                    />
+                  </div>
+                  <p>
+                    "It is a long established fact that a reader will be
+                    distracted by the readable content of a page when looking at
+                    its layout. The point of using Lorem Ipsum is that it has"
+                  </p>
+                </div>
+                <div class="author">
+                  <img
+                    src="assets/images/testimonial/xtesti2.jpg.pagespeed.ic.fmxvheSN76.webp"
+                    alt="#"
+                    data-pagespeed-url-hash="410910514"
+                    onload="pagespeed.CriticalImages.checkImageForCriticality(this);"
+                  />
+                  <h4 class="name">
+                    Musharof Chowdhury
+                    <span class="deg">CEO - GrayGrids</span>
+                  </h4>
+                </div>
+              </div>
+
+              <div class="single-testimonial">
+                <div class="text">
+                  <div class="brand-icon">
+                    <img
+                      src="assets/images/testimonial/brand3.svg"
+                      alt="#"
+                      data-pagespeed-url-hash="4293567234"
+                      onload="pagespeed.CriticalImages.checkImageForCriticality(this);"
+                    />
+                  </div>
+                  <p>
+                    "It is a long established fact that a reader will be
+                    distracted by the readable content of a page when looking at
+                    its layout. The point of using Lorem Ipsum is that it has"
+                  </p>
+                </div>
+                <div class="author">
+                  <img
+                    src="assets/images/testimonial/xtesti3.jpg.pagespeed.ic.tAsZj1GkEP.webp"
+                    alt="#"
+                    data-pagespeed-url-hash="705410435"
+                    onload="pagespeed.CriticalImages.checkImageForCriticality(this);"
+                  />
+                  <h4 class="name">
+                    Naimur Rahman
+                    <span class="deg">CEO - WpthemesGrid</span>
+                  </h4>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section call-action">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 offset-lg-2 col-md-12 col-12">
+            <div class="cta-content">
+              <h2 class="wow fadeInUp" data-wow-delay=".2s">
+                Install Appvilla and Start Using
+              </h2>
+              <p class="wow fadeInUp" data-wow-delay=".4s">
+                There are many variations of passages of Lorem Ipsum available,
+                but the majority have suffered alteration in some form, by
+                injected humour, or randomised words which don't look even
+                slightly believable.
+              </p>
+              <div class="button wow fadeInUp" data-wow-delay=".6s">
+                <a href="javascript:void(0)" class="btn"
+                  ><i class="lni lni-apple"></i> App Store</a
+                >
+                <a href="javascript:void(0)" class="btn btn-alt"
+                  ><i class="lni lni-play-store"></i> Google Play</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="faq section">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="section-title">
+              <h3 class="wow zoomIn" data-wow-delay=".2s">Faq</h3>
+              <h2 class="wow fadeInUp" data-wow-delay=".4s">
+                Frequently Asked Questions
+              </h2>
+              <p class="wow fadeInUp" data-wow-delay=".6s">
+                There are many variations of passages of Lorem Ipsum available,
+                but the majority have suffered alteration in some form.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <div class="accordion" id="accordionExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                  <button
+                    class="accordion-button"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseOne"
+                    aria-expanded="true"
+                    aria-controls="collapseOne"
+                  >
+                    <span class="title"
+                      ><span class="serial">01</span>How Do I Contact Customer
+                      Services?</span
+                    ><i class="lni lni-plus"></i>
+                  </button>
+                </h2>
+                <div
+                  id="collapseOne"
+                  class="accordion-collapse collapse show"
+                  aria-labelledby="headingOne"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body">
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Aliquam consectetur sit amet ante nec vulputate. Nulla
+                      aliquam, justo auctor consequat tincidunt, arcu erat
+                      mattis lorem, lacinia lacinia dui enim at eros.
+                      Pellentesque ut gravida augue. Duis ac dictum tellus
+                    </p>
+                    <p>
+                      Anim pariatur cliche reprehenderit, enim eiusmod high life
+                      accusamus terry richardson ad squid. 3 wolf moon officia
+                      aute. non cupidatat skateboard dolor brunch. Foosd truck
+                      quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon
+                      tempor, sunt alqua put a bird on it squid single-origin
+                      coffee nulla assumenda shoreditch et. Nihil anim ke ffiyeh
+                      helvetica, craft beer labore wes anderson cred nesciunt
+                      sapiente ea proident.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseTwo"
+                    aria-expanded="false"
+                    aria-controls="collapseTwo"
+                  >
+                    <span class="title"
+                      ><span class="serial">02</span> Material types can you
+                      work with?</span
+                    ><i class="lni lni-plus"></i>
+                  </button>
+                </h2>
+                <div
+                  id="collapseTwo"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="headingTwo"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body">
+                    <p>
+                      Anim pariatur cliche reprehenderit, enim eiusmod high life
+                      accusamus terry richardson ad squid. 3 wolf moon officia
+                      aute. non cupidatat skateboard dolor brunch. Foosd truck
+                      quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon
+                      tempor, sunt alqua put a bird on it squid single-origin
+                      coffee nulla assumenda shoreditch et. Nihil anim ke ffiyeh
+                      helvetica, craft beer labore wes anderson cred nesciunt
+                      sapiente ea proident.
+                    </p>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Aliquam consectetur sit amet ante nec vulputate. Nulla
+                      aliquam, justo auctor consequat tincidunt, arcu erat
+                      mattis lorem, lacinia lacinia dui enim at eros.
+                      Pellentesque ut gravida augue. Duis ac dictum tellus
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseThree"
+                    aria-expanded="false"
+                    aria-controls="collapseThree"
+                  >
+                    <span class="title"
+                      ><span class="serial">03</span>Can I have multiple
+                      activities in a single feature?</span
+                    ><i class="lni lni-plus"></i>
+                  </button>
+                </h2>
+                <div
+                  id="collapseThree"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="headingThree"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body">
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                      Voluptas expedita, repellendus est nemo cum quibusdam
+                      optio, voluptate hic a tempora facere, nihil non itaque
+                      alias similique quas quam odit consequatur.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingFour">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseFour"
+                    aria-expanded="false"
+                    aria-controls="collapseFour"
+                  >
+                    <span class="title"
+                      ><span class="serial">04</span>How Clients Can Consult
+                      With online?</span
+                    ><i class="lni lni-plus"></i>
+                  </button>
+                </h2>
+                <div
+                  id="collapseFour"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="headingFour"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body">
+                    <p>
+                      Anim pariatur cliche reprehenderit, enim eiusmod high life
+                      accusamus terry richardson ad squid. 3 wolf moon officia
+                      aute. non cupidatat skateboard dolor brunch. Foosd truck
+                      quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon
+                      tempor, sunt alqua put a bird on it squid single-origin
+                      coffee nulla assumenda shoreditch et.
+                    </p>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                      Provident iure ab nisi, magnam vitae. Laboriosam laborum
+                      suscipit recusandae officia laudantium, consectetur
+                      adipisci voluptates doloremque quisquam. Id rerum iusto
+                      reprehenderit assumenda!
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingFive">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseFive"
+                    aria-expanded="false"
+                    aria-controls="collapseFive"
+                  >
+                    <span class="title"
+                      ><span class="serial">05</span>Can I share resources
+                      between features?</span
+                    ><i class="lni lni-plus"></i>
+                  </button>
+                </h2>
+                <div
+                  id="collapseFive"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="headingFive"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body">
+                    <p>
+                      Anim pariatur cliche reprehenderit, enim eiusmod high life
+                      accusamus terry richardson ad squid. 3 wolf moon officia
+                      aute. non cupidatat skateboard dolor brunch. Foosd truck
+                      quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon
+                      tempor, sunt alqua put a bird on it squid single-origin
+                      coffee nulla assumenda shoreditch et.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="blog" class="blog-section section">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="section-title">
+              <h3 class="wow zoomIn" data-wow-delay=".2s">Blogs</h3>
+              <h2 class="wow fadeInUp" data-wow-delay=".4s">Our Latest News</h2>
+              <p class="wow fadeInUp" data-wow-delay=".6s">
+                There are many variations of passages of Lorem Ipsum available,
+                but the majority have suffered alteration in some form.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 col-md-6 col-12">
+            <div class="single-blog wow fadeInUp" data-wow-delay=".2s">
+              <div class="blog-img">
+                <a href="blog-single-sidebar.html">
+                  <img
+                    data-pagespeed-lazy-src="assets/images/blog/xblog-1.jpg.pagespeed.ic.7alEvDzcRw.webp"
+                    alt="#"
+                    data-pagespeed-url-hash="1951484614"
+                    src="/pagespeed_static/1.JiBnMqyl6S.gif"
+                    onload="pagespeed.lazyLoadImages.loadIfVisibleAndMaybeBeacon(this);"
+                    onerror="this.onerror=null;pagespeed.lazyLoadImages.loadIfVisibleAndMaybeBeacon(this);"
+                  />
+                </a>
+              </div>
+              <div class="blog-content">
+                <a class="category" href="javascript:void(0)">Blog</a>
+                <h4>
+                  <a href="blog-single-sidebar.html"
+                    >Boost your conversion rate</a
+                  >
+                </h4>
+                <p>
+                  Lorem ipsum dolor sit amet, adipscing elitr, sed diam nonumy
+                  eirmod tempor ividunt dolore magna.
+                </p>
+                <div class="autor">
+                  <a href="javascript:void(0)"
+                    ><img
+                      data-pagespeed-lazy-src="assets/images/blog/xcomment1.jpg.pagespeed.ic.nTUzOhBqKr.webp"
+                      alt="#"
+                      data-pagespeed-url-hash="554129358"
+                      src="/pagespeed_static/1.JiBnMqyl6S.gif"
+                      onload="pagespeed.lazyLoadImages.loadIfVisibleAndMaybeBeacon(this);"
+                      onerror="this.onerror=null;pagespeed.lazyLoadImages.loadIfVisibleAndMaybeBeacon(this);"
+                  /></a>
+                  <a href="javascript:void(0)" class="name">Roel Aufderhar</a>
+                  <ul class="meta-content">
+                    <li>
+                      <a href="javascript:void(0)">Mar 15,2023</a>
+                    </li>
+                    <li>
+                      <a href="javascript:void(0)">5 min read</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-12">
+            <div class="single-blog wow fadeInUp" data-wow-delay=".4s">
+              <div class="blog-img">
+                <a href="blog-single-sidebar.html">
+                  <img
+                    data-pagespeed-lazy-src="assets/images/blog/xblog-2.jpg.pagespeed.ic.xb1NU2mWer.webp"
+                    alt="#"
+                    data-pagespeed-url-hash="2245984535"
+                    src="/pagespeed_static/1.JiBnMqyl6S.gif"
+                    onload="pagespeed.lazyLoadImages.loadIfVisibleAndMaybeBeacon(this);"
+                    onerror="this.onerror=null;pagespeed.lazyLoadImages.loadIfVisibleAndMaybeBeacon(this);"
+                  />
+                </a>
+              </div>
+              <div class="blog-content">
+                <a class="category" href="javascript:void(0)">Video</a>
+                <h4>
+                  <a href="blog-single-sidebar.html"
+                    >How to use search engine</a
+                  >
+                </h4>
+                <p>
+                  Lorem ipsum dolor sit amet, adipscing elitr, sed diam nonumy
+                  eirmod tempor ividunt dolore magna.
+                </p>
+                <div class="autor">
+                  <a href="javascript:void(0)"
+                    ><img
+                      data-pagespeed-lazy-src="assets/images/blog/xcomment2.jpg.pagespeed.ic.j3fObWuXzs.webp"
+                      alt="#"
+                      data-pagespeed-url-hash="848629279"
+                      src="/pagespeed_static/1.JiBnMqyl6S.gif"
+                      onload="pagespeed.lazyLoadImages.loadIfVisibleAndMaybeBeacon(this);"
+                      onerror="this.onerror=null;pagespeed.lazyLoadImages.loadIfVisibleAndMaybeBeacon(this);"
+                  /></a>
+                  <a href="javascript:void(0)" class="name">Jenifer Zuliya</a>
+                  <ul class="meta-content">
+                    <li>
+                      <a href="javascript:void(0)">Feb 10,2023</a>
+                    </li>
+                    <li>
+                      <a href="javascript:void(0)">7 min read</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-12">
+            <div class="single-blog wow fadeInUp" data-wow-delay=".6s">
+              <div class="blog-img">
+                <a href="blog-single-sidebar.html">
+                  <img
+                    data-pagespeed-lazy-src="assets/images/blog/xblog-3.jpg.pagespeed.ic.nR-5rJAUwT.webp"
+                    alt="#"
+                    data-pagespeed-url-hash="2540484456"
+                    src="/pagespeed_static/1.JiBnMqyl6S.gif"
+                    onload="pagespeed.lazyLoadImages.loadIfVisibleAndMaybeBeacon(this);"
+                    onerror="this.onerror=null;pagespeed.lazyLoadImages.loadIfVisibleAndMaybeBeacon(this);"
+                  />
+                </a>
+              </div>
+              <div class="blog-content">
+                <a class="category" href="javascript:void(0)">Marketing</a>
+                <h4>
+                  <a href="blog-single-sidebar.html"
+                    >Awesome ways to boost sales</a
+                  >
+                </h4>
+                <p>
+                  Lorem ipsum dolor sit amet, adipscing elitr, sed diam nonumy
+                  eirmod tempor ividunt dolore magna.
+                </p>
+                <div class="autor">
+                  <a href="javascript:void(0)"
+                    ><img
+                      data-pagespeed-lazy-src="assets/images/blog/xcomment3.jpg.pagespeed.ic.-bSrbhJC3m.webp"
+                      alt="#"
+                      data-pagespeed-url-hash="1143129200"
+                      src="/pagespeed_static/1.JiBnMqyl6S.gif"
+                      onload="pagespeed.lazyLoadImages.loadIfVisibleAndMaybeBeacon(this);"
+                      onerror="this.onerror=null;pagespeed.lazyLoadImages.loadIfVisibleAndMaybeBeacon(this);"
+                  /></a>
+                  <a href="javascript:void(0)" class="name">Roel Aufderhar</a>
+                  <ul class="meta-content">
+                    <li>
+                      <a href="javascript:void(0)">Jan 20,2023</a>
+                    </li>
+                    <li>
+                      <a href="javascript:void(0)">6 min read</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="client-logo-section">
+      <div class="container">
+        <div class="client-logo-wrapper">
+          <div
+            class="client-logo-carousel d-flex align-items-center justify-content-between"
+          >
+            <div class="client-logo">
+              <img
+                data-pagespeed-lazy-src="assets/images/client-logo/graygrids-logo.svg"
+                alt=""
+                data-pagespeed-url-hash="617977022"
+                src="/pagespeed_static/1.JiBnMqyl6S.gif"
+                onload="pagespeed.lazyLoadImages.loadIfVisibleAndMaybeBeacon(this);"
+                onerror="this.onerror=null;pagespeed.lazyLoadImages.loadIfVisibleAndMaybeBeacon(this);"
+              />
+            </div>
+            <div class="client-logo">
+              <img
+                data-pagespeed-lazy-src="assets/images/client-logo/pagebulb-logo.svg"
+                alt=""
+                data-pagespeed-url-hash="842602572"
+                src="/pagespeed_static/1.JiBnMqyl6S.gif"
+                onload="pagespeed.lazyLoadImages.loadIfVisibleAndMaybeBeacon(this);"
+                onerror="this.onerror=null;pagespeed.lazyLoadImages.loadIfVisibleAndMaybeBeacon(this);"
+              />
+            </div>
+            <div class="client-logo">
+              <img
+                data-pagespeed-lazy-src="assets/images/client-logo/lineicons-logo.svg"
+                alt=""
+                data-pagespeed-url-hash="2723564354"
+                src="/pagespeed_static/1.JiBnMqyl6S.gif"
+                onload="pagespeed.lazyLoadImages.loadIfVisibleAndMaybeBeacon(this);"
+                onerror="this.onerror=null;pagespeed.lazyLoadImages.loadIfVisibleAndMaybeBeacon(this);"
+              />
+            </div>
+            <div class="client-logo">
+              <img
+                data-pagespeed-lazy-src="assets/images/client-logo/graygrids-logo.svg"
+                alt=""
+                data-pagespeed-url-hash="617977022"
+                src="/pagespeed_static/1.JiBnMqyl6S.gif"
+                onload="pagespeed.lazyLoadImages.loadIfVisibleAndMaybeBeacon(this);"
+                onerror="this.onerror=null;pagespeed.lazyLoadImages.loadIfVisibleAndMaybeBeacon(this);"
+              />
+            </div>
+            <div class="client-logo">
+              <img
+                data-pagespeed-lazy-src="assets/images/client-logo/lineicons-logo.svg"
+                alt=""
+                data-pagespeed-url-hash="2723564354"
+                src="/pagespeed_static/1.JiBnMqyl6S.gif"
+                onload="pagespeed.lazyLoadImages.loadIfVisibleAndMaybeBeacon(this);"
+                onerror="this.onerror=null;pagespeed.lazyLoadImages.loadIfVisibleAndMaybeBeacon(this);"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <div class="footer-top">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-4 col-md-4 col-12">
+              <div class="single-footer f-about">
+                <div class="logo">
+                  <a href="index.html">
+                    <img
+                      src="assets/images/logo/white-logo.svg"
+                      alt="#"
+                      data-pagespeed-url-hash="1258407309"
+                      onload="pagespeed.CriticalImages.checkImageForCriticality(this);"
+                    />
+                  </a>
+                </div>
+                <p>
+                  Making the world a better place through constructing elegant
+                  hierarchies.
+                </p>
+                <ul class="social">
+                  <li>
+                    <a href="javascript:void(0)"
+                      ><i class="lni lni-facebook-filled"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a href="javascript:void(0)"
+                      ><i class="lni lni-twitter-original"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a href="javascript:void(0)"
+                      ><i class="lni lni-instagram"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a href="javascript:void(0)"
+                      ><i class="lni lni-linkedin-original"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a href="javascript:void(0)"
+                      ><i class="lni lni-youtube"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a href="javascript:void(0)"
+                      ><i class="lni lni-pinterest"></i
+                    ></a>
+                  </li>
+                </ul>
+                <p class="copyright-text">
+                  Designed and Developed by
+                  <a href="https://uideck.com/" rel="nofollow" target="_blank"
+                    >UIdeck</a
+                  >
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-8 col-md-8 col-12">
+              <div class="row">
+                <div class="col-lg-3 col-md-6 col-12">
+                  <div class="single-footer f-link">
+                    <h3>Solutions</h3>
+                    <ul>
+                      <li><a href="javascript:void(0)">Marketing</a></li>
+                      <li><a href="javascript:void(0)">Analytics</a></li>
+                      <li><a href="javascript:void(0)">Commerce</a></li>
+                      <li><a href="javascript:void(0)">Insights</a></li>
+                      <li><a href="javascript:void(0)">Promotion</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-12">
+                  <div class="single-footer f-link">
+                    <h3>Support</h3>
+                    <ul>
+                      <li><a href="javascript:void(0)">Pricing</a></li>
+                      <li><a href="javascript:void(0)">Documentation</a></li>
+                      <li><a href="javascript:void(0)">Guides</a></li>
+                      <li><a href="javascript:void(0)">API Status</a></li>
+                      <li><a href="javascript:void(0)">Live Support</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-12">
+                  <div class="single-footer f-link">
+                    <h3>Company</h3>
+                    <ul>
+                      <li><a href="javascript:void(0)">About Us</a></li>
+                      <li><a href="javascript:void(0)">Our Blog</a></li>
+                      <li><a href="javascript:void(0)">Jobs</a></li>
+                      <li><a href="javascript:void(0)">Press</a></li>
+                      <li><a href="javascript:void(0)">Contact Us</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-12">
+                  <div class="single-footer f-link">
+                    <h3>Legal</h3>
+                    <ul>
+                      <li>
+                        <a href="javascript:void(0)">Terms & Conditions</a>
+                      </li>
+                      <li><a href="javascript:void(0)">Privacy Policy</a></li>
+                      <li>
+                        <a href="javascript:void(0)">Catering Services</a>
+                      </li>
+                      <li>
+                        <a href="javascript:void(0)">Customer Relations</a>
+                      </li>
+                      <li><a href="javascript:void(0)">Innovation</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-newsletter">
+        <div class="container">
+          <div class="inner-content">
+            <div class="row align-items-center">
+              <div class="col-lg-6 col-md-5 col-12">
+                <div class="title">
+                  <h3>Subscribe to our newsletter</h3>
+                  <p>
+                    The latest news, articles, and resources, sent to your inbox
+                    weekly.
+                  </p>
+                </div>
+              </div>
+              <div class="col-lg-6 col-md-7 col-12">
+                <div class="form">
+                  <form
+                    action="#"
+                    method="get"
+                    target="_blank"
+                    class="newsletter-form"
+                  >
+                    <input
+                      name="EMAIL"
+                      placeholder="Your email address"
+                      type="email"
+                    />
+                    <div class="button">
+                      <button class="btn">
+                        Subscribe<span class="dir-part"></span>
+                      </button>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <a href="#" class="scroll-top">
+      <i class="lni lni-chevron-up"></i>
+    </a>
+
+    <script type="text/javascript" data-pagespeed-no-defer>
+      pagespeed.lazyLoadImages.overrideAttributeFunctions();
+    </script>
+    <script src="assets/js/bootstrap.min.js+wow.min.js.pagespeed.jc.G9Zju27TYV.js"></script>
+    <script>
+      eval(mod_pagespeed_HTgerzqta3);
+    </script>
+    <script>
+      eval(mod_pagespeed_GeNjoh$4Lg);
+    </script>
+    <script src="assets/js/tiny-slider.js+glightbox.min.js+count-up.min.js+main.js.pagespeed.jc.L20VkIp352.js"></script>
+    <script>
+      eval(mod_pagespeed_IXwSBjcVN_);
+    </script>
+    <script>
+      eval(mod_pagespeed_ZQrJZNfxvJ);
+    </script>
+    <script>
+      eval(mod_pagespeed_UKWJ4e7tC_);
+    </script>
+    <script>
+      eval(mod_pagespeed_fMVeKwDUuD);
+    </script>
+    <script type="text/javascript">
+      tns({
+        container: ".client-logo-carousel",
+        autoplay: true,
+        autoplayButtonOutput: false,
+        mouseDrag: true,
+        gutter: 15,
+        nav: false,
+        controls: false,
+        responsive: {
+          0: { items: 1 },
+          540: { items: 2 },
+          768: { items: 3 },
+          992: { items: 4 },
+        },
+      });
+      tns({
+        container: ".testimonial-slider",
+        items: 3,
+        slideBy: "page",
+        autoplay: false,
+        mouseDrag: true,
+        gutter: 0,
+        nav: true,
+        controls: false,
+        controlsText: [
+          '<i class="lni lni-arrow-left"></i>',
+          '<i class="lni lni-arrow-right"></i>',
+        ],
+        responsive: {
+          0: { items: 1 },
+          540: { items: 1 },
+          768: { items: 1 },
+          992: { items: 1 },
+          1170: { items: 1 },
+        },
+      });
+      var cu = new counterUp({
+        start: 0,
+        duration: 2000,
+        intvalues: true,
+        interval: 100,
+        append: " ",
+      });
+      cu.start();
+    </script>
+    <script
+      defer
+      src="https://static.cloudflareinsights.com/beacon.min.js/vb26e4fa9e5134444860be286fd8771851679335129114"
+      integrity="sha512-M3hN/6cva/SjwrOtyXeUa5IuCT0sedyfT+jK/OV+s+D0RnzrTfwjwJHhd+wYfMm9HJSrZ1IKksOdddLuN6KOzw=="
+      data-cf-beacon='{"rayId":"7b38d8dfbfbb4067","version":"2023.3.0","r":1,"token":"9a6015d415bb4773a0bff22543062d3b","si":100}'
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
