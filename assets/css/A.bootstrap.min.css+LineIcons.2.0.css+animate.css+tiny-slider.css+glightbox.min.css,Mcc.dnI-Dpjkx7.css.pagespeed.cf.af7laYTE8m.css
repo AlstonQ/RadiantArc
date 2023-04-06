@@ -702,6 +702,7 @@ progress {
   margin-top: calc(var(--bs-gutter-y) * -1);
   margin-right: calc(var(--bs-gutter-x) / -2);
   margin-left: calc(var(--bs-gutter-x) / -2);
+    justify-content: center;
 }
 
 .row > * {
@@ -1462,9 +1463,11 @@ progress {
     margin-left: 8.3333333333%;
   }
 
+/*
   .offset-lg-2 {
     margin-left: 16.6666666667%;
   }
+*/
 
   .offset-lg-3 {
     margin-left: 25%;
@@ -12138,6 +12141,7 @@ Author: lineicons.com
 .lni-chevron-up::before {
   content: "\ea5e";
 }
+
 
 .lni-chrome::before {
   content: "\ea5f";
